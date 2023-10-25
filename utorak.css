@@ -1,0 +1,55 @@
+.prva {
+    list-style-type: circle;
+}
+.treca {
+    list-style-type: upper-alpha;
+}
+.druga {
+    list-style-type: square;
+}
+.cetvrta {
+    list-style-type: lower-roman;
+}
+.peta {
+    list-style-image: url(./music-solid.svg);
+    width: 200px;
+}
+
+.sesta {
+    list-style-image: url(./music-solid.svg);
+    width: 200px;
+    list-style-position: inside;
+}
+img {
+    width: 70px;
+}
+.centar {
+    text-align: center;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    background-color: red;
+    color: white;
+}
+td,
+th {
+    padding: 10px 0;
+}
+tr:nth-child(2n) {
+}
+tr:nth-child(2n + 1) {
+    background-color: lightgrey;
+}
+tr:hover {
+    background-color: orange;
+}
+/* .ajfon{
+    background-color: gray;
+}
+.lg{
+    background-color: yellowgreen;
+} */
